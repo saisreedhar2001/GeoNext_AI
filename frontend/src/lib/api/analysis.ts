@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = process.env.url || "http://localhost:8000";
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
 export interface Education {
     level: "high_school" | "bachelors" | "masters" | "phd";

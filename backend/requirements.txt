@@ -16,7 +16,6 @@ httpx>=0.28.0
 # CrewAI & LLM (Optional - will fall back to direct API if not working)
 crewai>=0.86.0
 crewai-tools>=0.17.0
-openai>=1.50.0
 groq>=0.4.1
 
 # LangChain
@@ -25,9 +24,8 @@ langchain-groq>=0.2.0
 langchain-community>=0.3.0
 
 # RAG & Vector Store
-chromadb>=0.4.0
 tiktoken>=0.8.0
-sentence-transformers>=2.2.0  # Free local embeddings
+ # Free local embeddings
 
 # Utilities
 tenacity>=9.0.0
@@ -39,4 +37,3 @@ regex>=2024.0.0
 python-multipart>=0.0.12
 jinja2>=3.1.0
 amadeus
-gunicorn==21.2.0
