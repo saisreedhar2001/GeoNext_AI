@@ -231,4 +231,4 @@ MIT License - Built for educational purposes
 
 ---
 
-Built with ❤️ for the Global Mobility Hackathon 2024
+Built with ❤️
