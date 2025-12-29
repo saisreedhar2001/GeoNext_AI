@@ -1,6 +1,6 @@
 # GeoNext AI Platform
 
-AI-powered immigration pathway analysis using multi-agent collaboration with RAG grounding.
+AI-powered immigration pathway analysis using multi-agent collaboration with RAG grounding and CREWAI framework.
 
 ## 🚀 Overview
 
@@ -63,7 +63,7 @@ This platform uses CrewAI agents to analyze user profiles and recommend optimal 
 ## 📁 Project Structure
 
 ```
-VISA-HACKTHAON/
+GeoNext_AI/
 ├── backend/
 │   ├── src/
 │   │   ├── agents/           # CrewAI agent definitions
@@ -211,11 +211,7 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ## 🏆 Hackathon Notes
 
-This project was built for a 2-day hackathon. Key decisions:
-- Mock data instead of real-time scraping
-- Demo endpoint for testing without API costs
-- Simulated agent progress animation
-- Focus on UX and visualization
+This project was built for a 2-day hackathon.
 
 ## 📄 License
 
